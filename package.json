@@ -1,21 +1,33 @@
 {
   "name": "cesium-popup-vue2",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesium-plugin/cesium-popup-vue2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesium-plugin/cesium-popup-vue2/issues"
+  },
+  "files": [
+    "packages",
+    "README.md",
+    "package.json"
+  ],
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "cesium": "1.115.0",
+    "cesium": "1.115.0"
+  },
+  "devDependencies": {
     "core-js": "^3.8.3",
     "sass": "^1.77.1",
     "sass-loader": "^14.2.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
-  },
-  "devDependencies": {
+    "vue-router": "^3.5.2",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0-beta.3",
